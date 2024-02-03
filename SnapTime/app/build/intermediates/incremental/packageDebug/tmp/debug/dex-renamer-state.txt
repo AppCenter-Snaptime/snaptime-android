@@ -1,9 +1,9 @@
-#Fri Feb 02 15:39:03 KST 2024
-base.0=/Users/choimyeong-yoon/snaptime_project/snaptime-android/SnapTime/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/choimyeong-yoon/snaptime_project/snaptime-android/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/choimyeong-yoon/snaptime_project/snaptime-android/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
-base.3=/Users/choimyeong-yoon/snaptime_project/snaptime-android/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
-base.4=/Users/choimyeong-yoon/snaptime_project/snaptime-android/SnapTime/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Sat Feb 03 20:34:17 KST 2024
+base.0=/Users/miii/Desktop/winterproject/SnapTime/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/miii/Desktop/winterproject/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/miii/Desktop/winterproject/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.3=/Users/miii/Desktop/winterproject/SnapTime/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.4=/Users/miii/Desktop/winterproject/SnapTime/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex
