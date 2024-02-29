@@ -1,4 +1,4 @@
-package co.kr.snaptime.screen
+package co.kr.snaptime.component
 
 import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.Spacer
