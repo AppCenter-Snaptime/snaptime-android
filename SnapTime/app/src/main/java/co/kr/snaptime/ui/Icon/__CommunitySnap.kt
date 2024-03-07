@@ -10,13 +10,13 @@ import kotlin.collections.List as ____KtList
 
 public object CommunitySnap
 
-private var __CommunityIcon: ____KtList<ImageVector>? = null
+private var __CommunitySnapIcon: ____KtList<ImageVector>? = null
 
-public val CommunitySnap.CommunityIcon: ____KtList<ImageVector>
+public val CommunitySnap.CommunitySnapIcon: ____KtList<ImageVector>
   get() {
-    if (__CommunityIcon != null) {
-      return __CommunityIcon!!
+    if (__CommunitySnapIcon != null) {
+      return __CommunitySnapIcon!!
     }
-    __CommunityIcon= listOf(MorevertIcon, ShareIcon, LikeIcon, BellAlertIcon, CommentIcon)
-    return __CommunityIcon!!
+    __CommunitySnapIcon= listOf(MorevertIcon, ShareIcon, LikeIcon, BellAlertIcon, CommentIcon)
+    return __CommunitySnapIcon!!
   }
