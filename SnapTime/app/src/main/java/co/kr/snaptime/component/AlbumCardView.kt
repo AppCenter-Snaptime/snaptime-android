@@ -14,10 +14,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import co.kr.snaptime.R
+import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 
 @Composable
 fun AlbumCardView(
@@ -45,6 +48,8 @@ fun AlbumCardView(
         ) {
             Text(
                 text = albumTitle,
+                fontFamily = AppleSDGothicNeo,
+                fontWeight = FontWeight.SemiBold,
                 fontSize = 12.sp
             )
         }

@@ -9,6 +9,10 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+font applesdgothicneo_b
+font applesdgothicneo_eb
+font applesdgothicneo_r
+font applesdgothicneo_sb
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
