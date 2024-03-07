@@ -23,7 +23,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -32,26 +31,20 @@ import androidx.compose.ui.unit.sp
 import co.kr.snaptime.R
 import co.kr.snaptime.ui.Icon.BottomAppBar
 import co.kr.snaptime.ui.Icon.CommunitySnap
-import co.kr.snaptime.ui.Icon.CommunitySnapIcon
-import co.kr.snaptime.ui.Icon.bottomappbar.ActiveMain
 import co.kr.snaptime.ui.Icon.bottomappbar.ActiveProfile
-import co.kr.snaptime.ui.Icon.communitysnap.BellAlertIcon
 import co.kr.snaptime.ui.Icon.communitysnap.CommentIcon
 import co.kr.snaptime.ui.Icon.communitysnap.LikeIcon
-import co.kr.snaptime.ui.Icon.communitysnap.MorevertIcon
 import co.kr.snaptime.ui.Icon.communitysnap.ShareIcon
 import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 
 @Composable
 fun CommuSnapCardView() {
     Card(
-        /*modifier = Modifier
-            .wrapContentSize(),*/
         colors = CardDefaults.cardColors(Color.White),
         shape = RoundedCornerShape(0.dp)
     ) {
         Row(
-            modifier = Modifier.padding(21.dp, 0.dp),
+            modifier = Modifier.padding(21.dp, 4.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Start
         ) {
@@ -107,6 +100,7 @@ fun CommuSnapCardView() {
             ) {
 
                 // 임시 이미지(snap image)
+                // 이미지 사이즈 따라 수정 필요할 수 있음
                 Image(
                     painter = painterResource(id = R.drawable.ic_launcher_foreground),
                     contentDescription = "네컷 사진"
@@ -154,7 +148,7 @@ fun CommuSnapCardView() {
         Spacer(modifier = Modifier.height(8.dp))
 
         Column(
-            modifier = Modifier.padding(21.dp, 0.dp),
+            modifier = Modifier.padding(21.dp, 4.dp),
             horizontalAlignment = Alignment.Start
         ) {
             Text(
