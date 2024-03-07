@@ -23,7 +23,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -32,13 +31,9 @@ import androidx.compose.ui.unit.sp
 import co.kr.snaptime.R
 import co.kr.snaptime.ui.Icon.BottomAppBar
 import co.kr.snaptime.ui.Icon.CommunitySnap
-import co.kr.snaptime.ui.Icon.CommunitySnapIcon
-import co.kr.snaptime.ui.Icon.bottomappbar.ActiveMain
 import co.kr.snaptime.ui.Icon.bottomappbar.ActiveProfile
-import co.kr.snaptime.ui.Icon.communitysnap.BellAlertIcon
 import co.kr.snaptime.ui.Icon.communitysnap.CommentIcon
 import co.kr.snaptime.ui.Icon.communitysnap.LikeIcon
-import co.kr.snaptime.ui.Icon.communitysnap.MorevertIcon
 import co.kr.snaptime.ui.Icon.communitysnap.ShareIcon
 import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 

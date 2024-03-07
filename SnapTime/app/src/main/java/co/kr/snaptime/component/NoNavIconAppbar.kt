@@ -1,9 +1,8 @@
 package co.kr.snaptime.component
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -13,38 +12,32 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import co.kr.snaptime.ui.theme.AppleSDGothicNeo
+import co.kr.snaptime.ui.theme.MainColor_blue
 
+// title 폰트 Calistoga로 변경해야 함
+// navigation icon 없는 페이지(하단 앱바의 각 메인 페이지) 때문에 따로 제작
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Appbar(
-    // title 없는 페이지(회원 가입, 앨범 상세_4) 때문에 널러블로 처리
-    title:String?,
-    navIcon: ImageVector,
-    onNavClick: () -> Unit,
-    menuIcon : ImageVector?,
+fun NoNavIconAppbar(
+    title: String?,
+    menuIcon: ImageVector?,
     onMenuClick: () -> Unit = {}
 ) {
     TopAppBar(
         title = {
             Text(
                 modifier = Modifier.fillMaxWidth(),
-                textAlign = TextAlign.Center,
-                text = title ?: ""
+                text = title ?: "",
+                color = MainColor_blue,
+                fontFamily = AppleSDGothicNeo,
+                fontWeight = FontWeight.Normal,
+                fontSize = 20.sp
             )
-        },
-        navigationIcon = {
-
-            IconButton(
-                modifier = Modifier.size(24.dp),
-                onClick = onNavClick
-            ) {
-                Icon(
-                    imageVector = navIcon,
-                    contentDescription = "Navigation Icon"
-                )
-            }
         },
         actions = {
             if (menuIcon != null) {
