@@ -12,6 +12,10 @@
         "source": "co.kr.snaptime.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
+        "merged": "co.kr.snaptime.app-merged_res-54:/font_applesdgothicneo_r.ttf.flat",
+        "source": "co.kr.snaptime.app-main-56:/font/applesdgothicneo_r.ttf"
+    },
+    {
         "merged": "co.kr.snaptime.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "co.kr.snaptime.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -32,16 +36,24 @@
         "source": "co.kr.snaptime.app-main-56:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "co.kr.snaptime.app-merged_res-54:/font_applesdgothicneo_b.ttf.flat",
+        "source": "co.kr.snaptime.app-main-56:/font/applesdgothicneo_b.ttf"
+    },
+    {
         "merged": "co.kr.snaptime.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "co.kr.snaptime.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "co.kr.snaptime.app-merged_res-54:/xml_backup_rules.xml.flat",
         "source": "co.kr.snaptime.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "co.kr.snaptime.app-merged_res-54:/font_applesdgothicneo_sb.ttf.flat",
+        "source": "co.kr.snaptime.app-main-56:/font/applesdgothicneo_sb.ttf"
+    },
+    {
+        "merged": "co.kr.snaptime.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "co.kr.snaptime.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -50,6 +62,10 @@
     {
         "merged": "co.kr.snaptime.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
         "source": "co.kr.snaptime.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "co.kr.snaptime.app-merged_res-54:/font_applesdgothicneo_eb.ttf.flat",
+        "source": "co.kr.snaptime.app-main-56:/font/applesdgothicneo_eb.ttf"
     },
     {
         "merged": "co.kr.snaptime.app-merged_res-54:/drawable-v24_ic_launcher_foreground.xml.flat",

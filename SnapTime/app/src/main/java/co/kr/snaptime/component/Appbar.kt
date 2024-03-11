@@ -19,7 +19,8 @@ import androidx.compose.ui.unit.dp
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Appbar(
-    title:String,
+    // title 없는 페이지(회원 가입, 앨범 상세_4) 때문에 널러블로 처리
+    title:String?,
     navIcon: ImageVector,
     onNavClick: () -> Unit,
     menuIcon : ImageVector?,
@@ -30,10 +31,11 @@ fun Appbar(
             Text(
                 modifier = Modifier.fillMaxWidth(),
                 textAlign = TextAlign.Center,
-                text = title
+                text = title ?: ""
             )
         },
         navigationIcon = {
+
             IconButton(
                 modifier = Modifier.size(24.dp),
                 onClick = onNavClick

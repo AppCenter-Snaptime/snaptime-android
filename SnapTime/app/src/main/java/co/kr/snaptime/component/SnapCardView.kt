@@ -25,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import co.kr.snaptime.R
+import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 
 @Composable
 fun SnapCardView() {
@@ -41,7 +42,9 @@ fun SnapCardView() {
         ) {
             Text(
                 text = "snap 날짜",
-                fontSize = 12.sp
+                fontSize = 16.sp,
+                fontFamily = AppleSDGothicNeo,
+                fontWeight = FontWeight.Normal
             )
 
             Spacer(modifier = Modifier.height(8.dp))
@@ -63,7 +66,8 @@ fun SnapCardView() {
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    fontSize = 8.sp,
+                    fontSize = 14.sp,
+                    fontFamily = AppleSDGothicNeo,
                     fontWeight = FontWeight.Bold,
                     text = "친구 태그"
                 )
@@ -71,7 +75,9 @@ fun SnapCardView() {
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    fontSize = 8.sp,
+                    fontSize = 14.sp,
+                    fontFamily = AppleSDGothicNeo,
+                    fontWeight = FontWeight.Normal,
                     text = "한 줄 일기"
                 )
 
@@ -82,7 +88,9 @@ fun SnapCardView() {
                     onClick = {},
                     style = TextStyle(
                         color = Color.Gray,
-                        fontSize = 6.sp
+                        fontSize = 12.sp,
+                        fontFamily = AppleSDGothicNeo,
+                        fontWeight = FontWeight.Normal
                     )
                 )
             }
