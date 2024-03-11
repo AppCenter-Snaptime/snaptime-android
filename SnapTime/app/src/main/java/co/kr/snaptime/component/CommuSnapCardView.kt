@@ -40,17 +40,16 @@ import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 @Composable
 fun CommuSnapCardView() {
     Card(
-        /*modifier = Modifier
-            .wrapContentSize(),*/
         colors = CardDefaults.cardColors(Color.White),
         shape = RoundedCornerShape(0.dp)
     ) {
         Row(
-            modifier = Modifier.padding(21.dp, 0.dp),
+            modifier = Modifier.padding(21.dp, 4.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Start
         ) {
             // 임시 이미지
+            // 이미지 사이즈 따라 수정할 수도 있음
             Image(
                 modifier = Modifier.size(32.dp),
                 imageVector = BottomAppBar.ActiveProfile,
@@ -149,7 +148,7 @@ fun CommuSnapCardView() {
         Spacer(modifier = Modifier.height(8.dp))
 
         Column(
-            modifier = Modifier.padding(21.dp, 0.dp),
+            modifier = Modifier.padding(21.dp, 4.dp),
             horizontalAlignment = Alignment.Start
         ) {
             Text(
