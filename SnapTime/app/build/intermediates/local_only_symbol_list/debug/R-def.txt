@@ -13,6 +13,7 @@ font applesdgothicneo_b
 font applesdgothicneo_eb
 font applesdgothicneo_r
 font applesdgothicneo_sb
+font calistoga_r
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -658,6 +658,7 @@ int font applesdgothicneo_b 0x7f070000
 int font applesdgothicneo_eb 0x7f070001
 int font applesdgothicneo_r 0x7f070002
 int font applesdgothicneo_sb 0x7f070003
+int font calistoga_r 0x7f070004
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002
