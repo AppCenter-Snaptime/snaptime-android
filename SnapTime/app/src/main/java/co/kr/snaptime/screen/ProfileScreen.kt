@@ -5,9 +5,12 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -22,17 +25,13 @@ import co.kr.snaptime.component.ProfileAlbumTab
 fun ProfileScreen(
     navController: NavController
 ) {
-    // 현재 탭의 선택된 인덱스
-    val state = remember { mutableStateOf(0) }
-    val titles = listOf("앨범 목록", "태그 목록")
-
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(color = Color.White)
     ){
         NoNavIconAppbar(
-            title = "profile",
+            title = "Profile",
             menuIcon = null
         )
 
@@ -47,6 +46,17 @@ fun ProfileScreen(
             modifier = Modifier.align(Alignment.CenterHorizontally),
             text = "Text tab ${state.value + 1} selected"
         )*/
+
+
+        /*// snap 추가 작업을 하는 floating action button
+        FloatingActionButton(
+            onClick = {  },
+            shape = CircleShape
+        ) {
+            Icon(Icons.Filled.Add, "snap add FAB")
+        }*/
+
+        // bottom app bar 추가
     }
 }
 

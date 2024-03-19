@@ -49,7 +49,7 @@ fun MyUserProfile() {
         Column(modifier = Modifier.wrapContentSize()) {
             Spacer(modifier = Modifier.height(8.dp))
 
-            // 유저 아이디 텍스트, morevert icon
+            // 유저 아이디 텍스트, more vert icon
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     text = "user id",
@@ -71,7 +71,7 @@ fun MyUserProfile() {
             Spacer(modifier = Modifier.height(16.dp))
 
             // 사진 수, 팔로워, 팔로잉 텍스트
-            Row() {
+            Row {
                 Text(
                     text = buildAnnotatedString {
                         withStyle(
