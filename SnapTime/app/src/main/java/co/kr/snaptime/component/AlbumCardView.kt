@@ -31,7 +31,7 @@ fun AlbumCardView(
         elevation = CardDefaults.cardElevation(
             defaultElevation = 6.dp
         ),
-        shape = RoundedCornerShape(4.dp),
+        shape = RoundedCornerShape(10.dp),
         colors = CardDefaults.cardColors(Color.White)
     ) {
         Image(

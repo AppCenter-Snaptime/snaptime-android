@@ -659,6 +659,7 @@ font applesdgothicneo_b
 font applesdgothicneo_eb
 font applesdgothicneo_r
 font applesdgothicneo_sb
+font calistoga_r
 id ALT
 id CTRL
 id FUNCTION
