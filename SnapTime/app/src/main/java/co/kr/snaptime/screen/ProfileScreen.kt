@@ -9,14 +9,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -25,6 +23,7 @@ import androidx.navigation.compose.rememberNavController
 import co.kr.snaptime.component.MyUserProfile
 import co.kr.snaptime.component.NoNavIconAppbar
 import co.kr.snaptime.component.ProfileAlbumTab
+import co.kr.snaptime.component.STBottomAppBar
 import co.kr.snaptime.ui.theme.MainColor_blue
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -37,12 +36,7 @@ fun ProfileScreen(
             NoNavIconAppbar(title = "Profile", menuIcon = null)
         },
         bottomBar = {
-            // component로 제작 예정
-            BottomAppBar(
-                actions = {},
-                containerColor = Color.White,
-                modifier = Modifier.shadow(24.dp)
-            )
+            STBottomAppBar()
         },
         floatingActionButton = {
             FloatingActionButton(
