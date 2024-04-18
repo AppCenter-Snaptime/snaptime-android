@@ -3,6 +3,7 @@ package co.kr.snaptime.component
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -19,8 +20,11 @@ import co.kr.snaptime.ui.Icon.bottomappbar.InactiveProfile
 import co.kr.snaptime.ui.Icon.bottomappbar.InactiveRecommend
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 import co.kr.snaptime.ui.theme.MainColor_blue
 
@@ -64,7 +68,11 @@ fun STBottomAppBar() {
         homeTab, communityTab, recommendTab, profileTab
     )
 
-    NavigationBar() {
+    NavigationBar(
+        modifier = Modifier.shadow(20.dp),
+        containerColor = Color.White,
+        contentColor = Color.White
+    ) {
         tabItems.forEachIndexed { index, tabBarItem ->
             NavigationBarItem(
                 selected = (selectedTabIndex == index),
@@ -91,7 +99,15 @@ fun STBottomAppBar() {
                         text = tabBarItem.title,
                         fontFamily = AppleSDGothicNeo
                     )
-                }
+                },
+                // nav bar 요소 색(선택, 안 선택, indicator)
+                colors = NavigationBarItemDefaults.colors(
+                    selectedIconColor = MainColor_blue,
+                    selectedTextColor = MainColor_blue,
+                    unselectedIconColor = Color.Black,
+                    unselectedTextColor = Color.Black,
+                    indicatorColor = Color.White
+                )
             )
         }
     }
