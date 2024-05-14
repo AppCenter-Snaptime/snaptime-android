@@ -51,7 +51,7 @@ fun HomeScreen(
             ) {
                 Icon(
                     imageVector = HomeIcon.Qrcodeicon,
-                    contentDescription = "QR code",
+                    contentDescription = "QR code scan",
                     tint = Color.White
                 )
             }
@@ -61,7 +61,7 @@ fun HomeScreen(
             columns = GridCells.Fixed(2),
             modifier = Modifier
                 .padding(it)
-                .padding(top = 8.dp, start = 8.dp, end = 8.dp, bottom = 4.dp),
+                .padding(top = 16.dp, start = 8.dp, end = 8.dp, bottom = 4.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
