@@ -10,6 +10,7 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -22,6 +23,9 @@ import co.kr.snaptime.R
 import co.kr.snaptime.component.AlbumCardView
 import co.kr.snaptime.component.NoNavIconAppbar
 import co.kr.snaptime.component.STBottomAppBar
+import co.kr.snaptime.ui.Icon.HomeIcon
+import co.kr.snaptime.ui.Icon.homeicon.Albumadd
+import co.kr.snaptime.ui.Icon.homeicon.Qrcodeicon
 import co.kr.snaptime.ui.theme.MainColor_blue
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -33,7 +37,7 @@ fun HomeScreen(
         topBar = {
             NoNavIconAppbar(
                 title = "SnapTime",
-                menuIcon = null
+                menuIcon = HomeIcon.Albumadd
             )
         },
         bottomBar = {
@@ -45,7 +49,11 @@ fun HomeScreen(
                 shape = CircleShape,
                 containerColor = MainColor_blue
             ) {
-                // 내부에 들어가는 Icon
+                Icon(
+                    imageVector = HomeIcon.Qrcodeicon,
+                    contentDescription = "QR code",
+                    tint = Color.White
+                )
             }
         }
     ) {
