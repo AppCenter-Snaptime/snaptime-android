@@ -1,4 +1,4 @@
-package co.kr.snaptime.screen
+package co.kr.snaptime.ui.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import co.kr.snaptime.R
-import co.kr.snaptime.component.NoNavIconAppbar
+import co.kr.snaptime.ui.component.NoNavIconAppbar
 import co.kr.snaptime.ui.Icon.SettingIcon
 import co.kr.snaptime.ui.Icon.settingicon.Contactsicon
 import co.kr.snaptime.ui.Icon.settingicon.Faqicon

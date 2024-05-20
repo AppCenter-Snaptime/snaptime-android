@@ -1,4 +1,4 @@
-package co.kr.snaptime.component
+package co.kr.snaptime.ui.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement

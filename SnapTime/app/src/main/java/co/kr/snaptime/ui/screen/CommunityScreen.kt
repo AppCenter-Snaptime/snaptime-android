@@ -1,4 +1,4 @@
-package co.kr.snaptime.screen
+package co.kr.snaptime.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -13,8 +13,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import co.kr.snaptime.component.CommuSnapCardView
-import co.kr.snaptime.component.NoNavIconAppbar
+import co.kr.snaptime.ui.component.CommuSnapCardView
+import co.kr.snaptime.ui.component.NoNavIconAppbar
 import co.kr.snaptime.ui.Icon.CommunitySnap
 import co.kr.snaptime.ui.Icon.communitysnap.BellAlertIcon
 

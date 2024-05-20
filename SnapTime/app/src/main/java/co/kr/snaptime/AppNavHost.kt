@@ -4,14 +4,14 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import co.kr.snaptime.screen.AllScreen
-import co.kr.snaptime.screen.CommunityScreen
-import co.kr.snaptime.screen.HomeScreen
-import co.kr.snaptime.screen.LogInScreen
-import co.kr.snaptime.screen.ProfileScreen
-import co.kr.snaptime.screen.SettingScreen
-import co.kr.snaptime.screen.SignUpEmailScreen
-import co.kr.snaptime.screen.SignUpPWScreen
+import co.kr.snaptime.ui.screen.AllScreen
+import co.kr.snaptime.ui.screen.CommunityScreen
+import co.kr.snaptime.ui.screen.HomeScreen
+import co.kr.snaptime.ui.screen.LogInScreen
+import co.kr.snaptime.ui.screen.ProfileScreen
+import co.kr.snaptime.ui.screen.SettingScreen
+import co.kr.snaptime.ui.screen.SignUpEmailScreen
+import co.kr.snaptime.ui.screen.SignUpPWScreen
 
 @Composable
 fun AppNavHost() {

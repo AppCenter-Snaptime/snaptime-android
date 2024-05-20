@@ -1,4 +1,4 @@
-package co.kr.snaptime
+package co.kr.snaptime.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

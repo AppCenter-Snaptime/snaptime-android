@@ -1,4 +1,4 @@
-package co.kr.snaptime.screen
+package co.kr.snaptime.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -10,10 +10,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
-import co.kr.snaptime.component.Appbar
+import co.kr.snaptime.ui.component.Appbar
 
 @Composable
-fun SignUpEmailScreen(
+fun SignUpPWScreen(
     navController: NavController
 ) {
     Column(
@@ -22,7 +22,7 @@ fun SignUpEmailScreen(
             .background(color = Color.Gray)
     ){
         Appbar(
-            title = "SignUpEmail",
+            title = "SignUpPW",
             navIcon = Icons.Filled.ArrowBack,
             onNavClick = { /*TODO*/ },
             menuIcon = Icons.Filled.Menu

@@ -1,4 +1,4 @@
-package co.kr.snaptime.screen
+package co.kr.snaptime.ui.screen
 
 enum class AllScreen {
     LogInScreen,
