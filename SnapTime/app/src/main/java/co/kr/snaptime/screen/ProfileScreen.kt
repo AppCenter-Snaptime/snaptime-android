@@ -40,7 +40,7 @@ fun ProfileScreen(
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = { },
+                onClick = { /* TODO */ },
                 shape = CircleShape,
                 containerColor = MainColor_blue
             ) {

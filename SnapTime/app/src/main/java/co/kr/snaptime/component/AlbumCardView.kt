@@ -32,7 +32,8 @@ fun AlbumCardView(
             defaultElevation = 6.dp
         ),
         shape = RoundedCornerShape(10.dp),
-        colors = CardDefaults.cardColors(Color.White)
+        colors = CardDefaults.cardColors(Color.White),
+        modifier = Modifier.wrapContentSize()
     ) {
         Image(
             modifier = Modifier.clip(RectangleShape),
