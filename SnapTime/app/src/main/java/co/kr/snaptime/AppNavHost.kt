@@ -12,10 +12,12 @@ import co.kr.snaptime.ui.screen.ProfileScreen
 import co.kr.snaptime.ui.screen.SettingScreen
 import co.kr.snaptime.ui.screen.SignUpEmailScreen
 import co.kr.snaptime.ui.screen.SignUpPWScreen
+import co.kr.snaptime.ui.viewmodel.LogInViewModel
 
 @Composable
 fun AppNavHost() {
     val navController = rememberNavController()
+    val logInViewModel = LogInViewModel()
 
     NavHost(
         navController = navController,
@@ -23,7 +25,8 @@ fun AppNavHost() {
     ) {
         composable(AllScreen.LogInScreen.name) {
             LogInScreen(
-                navController = navController
+                navController = navController,
+                loginViewModel = logInViewModel
             )
         }
 
