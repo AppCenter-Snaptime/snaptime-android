@@ -1,15 +1,17 @@
 package co.kr.snaptime.ui.viewmodel
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import co.kr.snaptime.data.model.login_dto.SignInReqDto
 import co.kr.snaptime.data.model.login_dto.SignUpReqDto
 import co.kr.snaptime.data.repository.UserRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class LogInViewModel: ViewModel() {
-    private val userRepo = UserRepository()
+class LogInViewModel(application: Application): AndroidViewModel(application) {
+    private val userRepo = UserRepository(getApplication())
 
     private val _signUpResponse = MutableStateFlow("")
     val signUpResponse: StateFlow<String> = _signUpResponse
@@ -27,6 +29,12 @@ class LogInViewModel: ViewModel() {
                 val errorBody = response.errorBody()?.string() ?: "알 수 없는 에러 발생"
                 throw Exception("실패: $errorBody, ${response.code()}")
             }
+        }
+    }
+
+    fun signIn(signInReqDto: SignInReqDto) {
+        viewModelScope.launch {
+            val response = userRepo.signIn(signInReqDto)
         }
     }
 }

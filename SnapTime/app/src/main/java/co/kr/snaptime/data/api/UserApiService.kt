@@ -1,5 +1,7 @@
 package co.kr.snaptime.data.api
 
+import co.kr.snaptime.data.model.login_dto.SignInReqDto
+import co.kr.snaptime.data.model.login_dto.SignInResDto
 import co.kr.snaptime.data.model.login_dto.SignUpReqDto
 import co.kr.snaptime.data.model.login_dto.SignUpResDto
 import retrofit2.Response
@@ -11,4 +13,9 @@ interface UserApiService {
     suspend fun signUp(
         @Body requestBody: SignUpReqDto
     ): Response<SignUpResDto>
+
+    @POST("users/sign-in")
+    suspend fun signIn(
+        @Body requestBody: SignInReqDto
+    ): Response<SignInResDto>
 }
