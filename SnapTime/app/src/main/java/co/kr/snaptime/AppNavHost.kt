@@ -1,9 +1,12 @@
 package co.kr.snaptime
 
+import android.content.Context
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import co.kr.snaptime.data.repository.UserRepository
 import co.kr.snaptime.ui.screen.AllScreen
 import co.kr.snaptime.ui.screen.CommunityScreen
 import co.kr.snaptime.ui.screen.HomeScreen
@@ -12,12 +15,13 @@ import co.kr.snaptime.ui.screen.ProfileScreen
 import co.kr.snaptime.ui.screen.SettingScreen
 import co.kr.snaptime.ui.screen.SignUpEmailScreen
 import co.kr.snaptime.ui.screen.SignUpPWScreen
-import co.kr.snaptime.ui.viewmodel.LogInViewModel
+import co.kr.snaptime.ui.viewmodel.UserViewModel
 
 @Composable
 fun AppNavHost() {
+    val userRepo = UserRepository(context = LocalContext.current)
     val navController = rememberNavController()
-    val logInViewModel = LogInViewModel()
+    val userViewModel = UserViewModel(userRepo)
 
     NavHost(
         navController = navController,
@@ -26,7 +30,7 @@ fun AppNavHost() {
         composable(AllScreen.LogInScreen.name) {
             LogInScreen(
                 navController = navController,
-                loginViewModel = logInViewModel
+                userViewModel = userViewModel
             )
         }
 

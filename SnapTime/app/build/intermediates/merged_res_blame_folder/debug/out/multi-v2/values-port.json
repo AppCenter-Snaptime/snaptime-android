@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "co.kr.snaptime.app-mergeDebugResources-52:/values-port/values-port.xml",
+            "outputFile": "co.kr.snaptime.app-mergeDebugResources-55:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6f49f6ceebb197fb36f1a6d334fec1f5/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "source": "/Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1baad01b2c31df40d0fce7541c965eec/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

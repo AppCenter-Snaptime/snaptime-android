@@ -4,7 +4,7 @@
             "outputFile": "co.kr.snaptime.test.app-mergeDebugAndroidTestResources-29:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e16c59b1e48c239ca2936c03d482d39b/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/choimyeong-yoon/.gradle/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,13 +1,13 @@
 package co.kr.snaptime.ui.screen
 
+import android.util.Log
 import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -18,14 +18,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import co.kr.snaptime.data.model.login_dto.SignInReqDto
 import co.kr.snaptime.data.model.login_dto.SignUpReqDto
-import co.kr.snaptime.data.model.user_dto.UserReqDto
-import co.kr.snaptime.ui.viewmodel.LogInViewModel
+import co.kr.snaptime.ui.viewmodel.UserViewModel
 
 @Composable
 fun LogInScreen(
     navController: NavController,
-    loginViewModel: LogInViewModel
+    userViewModel: UserViewModel
 ) {
     val context = LocalContext.current
     Column(
@@ -42,6 +42,12 @@ fun LogInScreen(
             "choi1234@gmail.com",
             "2000-11-11"
         )
+
+        val signInInfo = SignInReqDto(
+            "choi1234",
+            "asdfasdf"
+        )
+
         Text(
             text = "Login",
             fontSize = 30.sp
@@ -52,11 +58,22 @@ fun LogInScreen(
         // api test
         Button(
             onClick = {
-                loginViewModel.signUp(userInfo)
-                Toast.makeText(context, "${loginViewModel.code.value}", Toast.LENGTH_SHORT).show()
+                userViewModel.signUp(userInfo)
+                Toast.makeText(context, "${userViewModel.code.value}", Toast.LENGTH_SHORT).show()
             }
         ) {
             Text(text = "test")
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Button(
+            onClick = {
+                userViewModel.signIn(signInInfo)
+                Toast.makeText(context, userViewModel.token.value, Toast.LENGTH_SHORT).show()
+            }
+        ) {
+            Text(text = "sign in")
         }
     }
 }
