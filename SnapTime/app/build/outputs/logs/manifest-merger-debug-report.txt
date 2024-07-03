@@ -114,22 +114,22 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Libr
 		ADDED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e16c59b1e48c239ca2936c03d482d39b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:14:9-35
-	android:label
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:11:9-54
 	android:roundIcon
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:15:9-46
 	android:dataExtractionRules
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:9:9-65
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:9:9-44
 activity#co.kr.snaptime.MainActivity
 ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:17:9-27:20
 	android:label
