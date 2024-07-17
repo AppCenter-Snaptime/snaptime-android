@@ -1,86 +1,86 @@
 [
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/font_applesdgothicneo_sb.ttf.flat",
-        "source": "co.kr.snaptime.app-main-59:/font/applesdgothicneo_sb.ttf"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/xml_backup_rules.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/xml/backup_rules.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/font_applesdgothicneo_r.ttf.flat",
-        "source": "co.kr.snaptime.app-main-59:/font/applesdgothicneo_r.ttf"
+        "merged": "co.kr.snaptime.app-merged_res-62:/xml_backup_rules.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/xml/backup_rules.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/xml/data_extraction_rules.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/xml_data_extraction_rules.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/font_applesdgothicneo_r.ttf.flat",
+        "source": "co.kr.snaptime.app-main-64:/font/applesdgothicneo_r.ttf"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/font_applesdgothicneo_b.ttf.flat",
-        "source": "co.kr.snaptime.app-main-59:/font/applesdgothicneo_b.ttf"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/font_calistoga_r.ttf.flat",
+        "source": "co.kr.snaptime.app-main-64:/font/calistoga_r.ttf"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/font_applesdgothicneo_sb.ttf.flat",
+        "source": "co.kr.snaptime.app-main-64:/font/applesdgothicneo_sb.ttf"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/drawable/ic_launcher_background.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/font_applesdgothicneo_b.ttf.flat",
+        "source": "co.kr.snaptime.app-main-64:/font/applesdgothicneo_b.ttf"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/font_applesdgothicneo_eb.ttf.flat",
-        "source": "co.kr.snaptime.app-main-59:/font/applesdgothicneo_eb.ttf"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/font_calistoga_r.ttf.flat",
-        "source": "co.kr.snaptime.app-main-59:/font/calistoga_r.ttf"
+        "merged": "co.kr.snaptime.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "co.kr.snaptime.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "co.kr.snaptime.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "co.kr.snaptime.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "co.kr.snaptime.app-merged_res-62:/font_applesdgothicneo_eb.ttf.flat",
+        "source": "co.kr.snaptime.app-main-64:/font/applesdgothicneo_eb.ttf"
     }
 ]

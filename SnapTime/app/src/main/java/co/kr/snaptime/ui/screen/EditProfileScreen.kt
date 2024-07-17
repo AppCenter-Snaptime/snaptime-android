@@ -41,8 +41,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import co.kr.snaptime.R
-import co.kr.snaptime.ui.Icon.EditProfileIcon
-import co.kr.snaptime.ui.Icon.editprofileicon.Modifyimgicon
+/*import co.kr.snaptime.ui.Icon.EditProfileIcon
+import co.kr.snaptime.ui.Icon.editprofileicon.Modifyimgicon*/
 import co.kr.snaptime.ui.theme.AppleSDGothicNeo
 import co.kr.snaptime.ui.theme.MainColor_blue
 
@@ -118,11 +118,11 @@ fun EditProfileScreen(
             IconButton(
                 onClick = { /*TODO*/ }
             ) {
-                Icon(
+                /*Icon(
                     imageVector = EditProfileIcon.Modifyimgicon,
                     contentDescription = null,
                     tint = Color.White
-                )
+                )*/
             }
         }
 

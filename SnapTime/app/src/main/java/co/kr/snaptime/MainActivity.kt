@@ -9,13 +9,14 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import co.kr.snaptime.data.api.RetrofitBuilder
+import co.kr.snaptime.navigation.AppNavHost
 import co.kr.snaptime.ui.theme.SnapTimeTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        RetrofitBuilder.init(this)
         setContent {
             SnapTimeTheme {
                 // A surface container using the 'background' color from the theme

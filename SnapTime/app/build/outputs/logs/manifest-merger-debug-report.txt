@@ -1,77 +1,81 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-30:12
-MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/54b9788672b8d0c6fd4c1f1440a4a85f/transformed/navigation-compose-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/49744e51ab133a51b455c565e210617b/transformed/lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4830e15bb811fe25ae2bb0e766561c0e/transformed/activity-compose-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7842e9b44f3344e4e28823f919fba5df/transformed/material3-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bea29df1fc2446385fe96e80a1ef20ff/transformed/material-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f92c4760c71515c0701ee7bb18c7bdc/transformed/material-ripple-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2db57268885190eef7f6c46063f5b073/transformed/foundation-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.animation:animation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/def7dae1b273eafcdcbb05fd1fcebc46/transformed/animation-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e40d11742bd763f6fb76bbd35dbc268a/transformed/foundation-layout-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a529c000df294a8e59759b029298c5cc/transformed/animation-core-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c504be280bdbe8d1f56a2460b6dd133a/transformed/material-icons-core-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70fb9cadc3d10d0fae7cfad0c8a2c6dd/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c10d4c8e5c0c240e5af09793646217b3/transformed/ui-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/935b53ca865711ca26ec10130d993e83/transformed/ui-text-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/eb9affa4273b8980bc4960f8c83f4a26/transformed/ui-graphics-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1ba32df60d7454d8e35d4d1fb4ee204a/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a0e7f1ced52de6d16765a5f9fe111cd3/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66d6ae4719648578e5778615880b3711/transformed/ui-unit-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d2024bdada89e95476649987b8987c7d/transformed/ui-geometry-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7073afdd2b9414e8b8b92d18a1955495/transformed/runtime-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c2fa3903b8bf69d84731c6123e75e814/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/339fa37caa0be427aa968256ee908c3e/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3ef19cc9857770c60abb33fec5d85135/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10b7f6f13779bb8dc890a58756dd03ff/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66efbc76037a79c51ee4d8c8abbf169a/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ac30bc89252348e73d658d5f8ce371cf/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/aa5ed2f6979693a93cdaecab1acaa53e/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6b6a053e1414db4fc4c622bac88752d2/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ae14ab84696d4c8344e1c2b3488975d6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1baad01b2c31df40d0fce7541c965eec/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25eabc01cbbb850e73d0471a5e717074/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/118a53cdf510baabb95339872ca80a0c/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/033c0a9e5582f0a99f612934649bfc25/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c432869d1ea9714471fe496e7788c565/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22760f51e7db685b5ebb71e8744031ee/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bc897b6c8019c7f6a6013e8a1923002e/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1a6c4924cfd80de3a957e920e290bbba/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2daa34fa4e13b6d09118d232d9e09eb/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/506572556a98a7db95d748e423dcd81d/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b9ea093ca6be2e82da2f9d0491b5ab1/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f8ca12f53384d0e5a744da5210f6869/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/261c33de352c95cc444d49ced339c351/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a19a3d780dba7f0e358960aaf580af10/transformed/ui-util-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2bea77212a5e2377f8035cc6007488c8/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f3a7f19ee4955db031e069467cfb7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8d4ce78fef7cd370b7e631b2dd544f51/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ddace8453595c3109daae0346b9670ec/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ce4bb9a5bf969e46788f75cb978e7dda/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6fba3a90f1e6d57d8ad399689b9f8f8d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/98fd5af9c8cc0fdf83688544b84fbec7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c4fe1b858f43e4c432f9c1fbf16f2be2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d68596a3e6a4bcd5ae0f50ef95f0e0e7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e39803f69f35ddac80a8dd00498d1984/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8ea3c7941251dc085d386b0ae9fe73c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3da79a2d3b14de22bd350c6562f2fc93/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:17:1-50:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58d5d0e915283586ffc0b7b469de19dd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5d8b227cb4885bce1754997396011696/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0173d5c4ad2bd37efd37b46b007629e5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/01bdc7d55c31055847cb5bcd9bb9f3a3/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58b4b92c40b03b9e6afe935f47c834d9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fcb096a2b9cfc956781bb07814ef8b29/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b8314179642c954ccb4f81c0f68d1ab4/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b9f8c2f842ae138b449d8b9794025908/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/342b550abc2773b09938ae8533374f9c/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c6435e0a3a48aaab017b2d783068845b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/09ad796af8b1d5ea696984039afde1e7/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/efb241155a1b1100ceff1b8a33cd12c7/transformed/material3-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/65d3e63b8816953ca8afa4e1fd3da16d/transformed/hilt-android-2.45/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcdda04f699a693264059de03a0c84d5/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/78463642c7430b2138db1e2986116a90/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7f72a72482e3d02c33cba8f15e9efbb6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4514cce0f53fd9a8b942919fdd7ff91d/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25477181ab9568c01ac43b46546ca231/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66bfe1a616e2b6ac4178ccfe38005df2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d00d98fcbf6cd57b1013563d92b6522f/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b91831b50d3e81023529cb85fec2645/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c54197fa38d87ebd225a2fa41dd18a14/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/67f2ce294070d56d53959a8e42cc7c06/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4876d5bb9de3d3798b38e5b80f8a1f87/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22cb232655d135e861015823375f9275/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/63ee66a2508c0257306e16025a8adb27/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/afd692ffdfff577ae5f61c2186fb4ca5/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c0d128b7d1177d25fbd40d3877720610/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a068f85ca028cb7258685f12948f9f93/transformed/material-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7802b1af9eae5a5c5feac11f0f265cca/transformed/material-ripple-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4387e8427697f4ec98eadf00a0814090/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7e770949e1ed082cd37abb7ca5f25db4/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2046314a3fb717842731afd12ca16714/transformed/activity-compose-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58bd403d48cdc131a428646206f1589e/transformed/activity-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9dadf7ceee241d233e963309ce5fd89e/transformed/activity-ktx-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/915a34b8fd89c8b59f789d4550bcc57b/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f5ec83d7cb94f66cbf12fd3cec63dd52/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10bb0f65fafb0f534080f1c029049530/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26d6f08e6a032f6e0b8b61ee145869f2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0207b8682949847e6ac3c791b7a6c968/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/447c135f35c8d9f6600da2856ee83748/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fb0bda1872f6781505e028784e5ced5e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/992aa1f54d442ffc466d49104b3cf34a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5a00bc5ba44074733f8fa55e7f99d67d/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b498d76bdb632f6e3bf92b593646ed72/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/354f0a94d1956d1de40288e152e2beb4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4398ae51ddeb933f93155d4e72d7c172/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9d4522b9353d11bfe8b583a1ce85a81d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/db161bc2e98e37c5a1fd7f8caebb0fe9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b7ed557e48613daee169698adc8b90db/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03e44fa0a4bd118419a5ffe7b767df65/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0fdd6342f28da4fef742bcb4ce19e1b5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8bc935827275613bacd33d5edfc76dec/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/35146ef3c2e8f94dd57d167541f38492/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcb33abb701c9e66ce5164f50b096cb2/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26b05fca8d1f5c40b7dd90fd54765254/transformed/material-icons-core-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03bac74428d95352b5451bcf0a57613b/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0a84837903800db91ba31f6fbb34bd56/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9f2c2741c2098c05c384537adf1a28d0/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bfdf4cd4f38030f610d3d3c36918c594/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/de0dec63c796446369cabd149ae3c196/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9aa5b944f9ffcb6fccbfd8b14fbd95a8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c0cb0728c0fcb067815446b5e732d4a/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b58c6918b35dcab10a5b125bdad4ca7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1fb0d5bcb07a8a6ee3dcc1a4ddb42292/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8fb6dc398e01e89b0b68105277316866/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1c734e08b054f20b4e3857e4503829a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70ab8395faef5d1d5012c9f6535ca161/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2d7de80f17bd7cda737aaee89a78f2b/transformed/dagger-lint-aar-2.45/AndroidManifest.xml:16:1-19:12
 	package
 		INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -87,281 +91,343 @@ ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/Android
 	android:name
 		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:7:5-28:19
-INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:7:5-28:19
-MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:24:5-48:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:24:5-48:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0173d5c4ad2bd37efd37b46b007629e5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0173d5c4ad2bd37efd37b46b007629e5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:7:5-29:19
+INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1fb0d5bcb07a8a6ee3dcc1a4ddb42292/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1fb0d5bcb07a8a6ee3dcc1a4ddb42292/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:15:9-35
 	android:fullBackupContent
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:16:9-29
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:15:9-46
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:16:9-46
 	android:dataExtractionRules
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:10:9-65
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:11:9-65
 	android:usesCleartextTraffic
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:9:9-44
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:8:9-40
 activity#co.kr.snaptime.MainActivity
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:17:9-27:20
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:18:9-28:20
 	android:label
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:21:13-50
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:22:13-50
 	android:name
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
 INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/54b9788672b8d0c6fd4c1f1440a4a85f/transformed/navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/54b9788672b8d0c6fd4c1f1440a4a85f/transformed/navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/49744e51ab133a51b455c565e210617b/transformed/lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/49744e51ab133a51b455c565e210617b/transformed/lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4830e15bb811fe25ae2bb0e766561c0e/transformed/activity-compose-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-compose:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4830e15bb811fe25ae2bb0e766561c0e/transformed/activity-compose-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7842e9b44f3344e4e28823f919fba5df/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7842e9b44f3344e4e28823f919fba5df/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bea29df1fc2446385fe96e80a1ef20ff/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bea29df1fc2446385fe96e80a1ef20ff/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f92c4760c71515c0701ee7bb18c7bdc/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f92c4760c71515c0701ee7bb18c7bdc/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2db57268885190eef7f6c46063f5b073/transformed/foundation-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2db57268885190eef7f6c46063f5b073/transformed/foundation-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/def7dae1b273eafcdcbb05fd1fcebc46/transformed/animation-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/def7dae1b273eafcdcbb05fd1fcebc46/transformed/animation-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e40d11742bd763f6fb76bbd35dbc268a/transformed/foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e40d11742bd763f6fb76bbd35dbc268a/transformed/foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a529c000df294a8e59759b029298c5cc/transformed/animation-core-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a529c000df294a8e59759b029298c5cc/transformed/animation-core-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c504be280bdbe8d1f56a2460b6dd133a/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c504be280bdbe8d1f56a2460b6dd133a/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70fb9cadc3d10d0fae7cfad0c8a2c6dd/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70fb9cadc3d10d0fae7cfad0c8a2c6dd/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c10d4c8e5c0c240e5af09793646217b3/transformed/ui-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c10d4c8e5c0c240e5af09793646217b3/transformed/ui-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/935b53ca865711ca26ec10130d993e83/transformed/ui-text-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/935b53ca865711ca26ec10130d993e83/transformed/ui-text-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/eb9affa4273b8980bc4960f8c83f4a26/transformed/ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/eb9affa4273b8980bc4960f8c83f4a26/transformed/ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1ba32df60d7454d8e35d4d1fb4ee204a/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1ba32df60d7454d8e35d4d1fb4ee204a/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a0e7f1ced52de6d16765a5f9fe111cd3/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a0e7f1ced52de6d16765a5f9fe111cd3/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66d6ae4719648578e5778615880b3711/transformed/ui-unit-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66d6ae4719648578e5778615880b3711/transformed/ui-unit-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d2024bdada89e95476649987b8987c7d/transformed/ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d2024bdada89e95476649987b8987c7d/transformed/ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7073afdd2b9414e8b8b92d18a1955495/transformed/runtime-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7073afdd2b9414e8b8b92d18a1955495/transformed/runtime-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c2fa3903b8bf69d84731c6123e75e814/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c2fa3903b8bf69d84731c6123e75e814/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/339fa37caa0be427aa968256ee908c3e/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/339fa37caa0be427aa968256ee908c3e/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3ef19cc9857770c60abb33fec5d85135/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3ef19cc9857770c60abb33fec5d85135/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10b7f6f13779bb8dc890a58756dd03ff/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10b7f6f13779bb8dc890a58756dd03ff/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66efbc76037a79c51ee4d8c8abbf169a/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66efbc76037a79c51ee4d8c8abbf169a/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ac30bc89252348e73d658d5f8ce371cf/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ac30bc89252348e73d658d5f8ce371cf/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/aa5ed2f6979693a93cdaecab1acaa53e/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/aa5ed2f6979693a93cdaecab1acaa53e/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6b6a053e1414db4fc4c622bac88752d2/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6b6a053e1414db4fc4c622bac88752d2/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ae14ab84696d4c8344e1c2b3488975d6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ae14ab84696d4c8344e1c2b3488975d6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1baad01b2c31df40d0fce7541c965eec/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1baad01b2c31df40d0fce7541c965eec/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25eabc01cbbb850e73d0471a5e717074/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25eabc01cbbb850e73d0471a5e717074/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/118a53cdf510baabb95339872ca80a0c/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/118a53cdf510baabb95339872ca80a0c/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/033c0a9e5582f0a99f612934649bfc25/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/033c0a9e5582f0a99f612934649bfc25/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c432869d1ea9714471fe496e7788c565/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c432869d1ea9714471fe496e7788c565/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22760f51e7db685b5ebb71e8744031ee/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22760f51e7db685b5ebb71e8744031ee/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bc897b6c8019c7f6a6013e8a1923002e/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bc897b6c8019c7f6a6013e8a1923002e/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1a6c4924cfd80de3a957e920e290bbba/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1a6c4924cfd80de3a957e920e290bbba/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2daa34fa4e13b6d09118d232d9e09eb/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2daa34fa4e13b6d09118d232d9e09eb/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/506572556a98a7db95d748e423dcd81d/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/506572556a98a7db95d748e423dcd81d/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b9ea093ca6be2e82da2f9d0491b5ab1/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b9ea093ca6be2e82da2f9d0491b5ab1/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f8ca12f53384d0e5a744da5210f6869/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5f8ca12f53384d0e5a744da5210f6869/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/261c33de352c95cc444d49ced339c351/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/261c33de352c95cc444d49ced339c351/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a19a3d780dba7f0e358960aaf580af10/transformed/ui-util-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a19a3d780dba7f0e358960aaf580af10/transformed/ui-util-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2bea77212a5e2377f8035cc6007488c8/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2bea77212a5e2377f8035cc6007488c8/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f3a7f19ee4955db031e069467cfb7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f3a7f19ee4955db031e069467cfb7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8d4ce78fef7cd370b7e631b2dd544f51/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8d4ce78fef7cd370b7e631b2dd544f51/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ddace8453595c3109daae0346b9670ec/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ddace8453595c3109daae0346b9670ec/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ce4bb9a5bf969e46788f75cb978e7dda/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/ce4bb9a5bf969e46788f75cb978e7dda/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6fba3a90f1e6d57d8ad399689b9f8f8d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/6fba3a90f1e6d57d8ad399689b9f8f8d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/98fd5af9c8cc0fdf83688544b84fbec7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/98fd5af9c8cc0fdf83688544b84fbec7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c4fe1b858f43e4c432f9c1fbf16f2be2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c4fe1b858f43e4c432f9c1fbf16f2be2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d68596a3e6a4bcd5ae0f50ef95f0e0e7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d68596a3e6a4bcd5ae0f50ef95f0e0e7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e39803f69f35ddac80a8dd00498d1984/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/e39803f69f35ddac80a8dd00498d1984/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cb91ace6cc762f7f96dc07b3511cd9ed/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8ea3c7941251dc085d386b0ae9fe73c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8ea3c7941251dc085d386b0ae9fe73c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3da79a2d3b14de22bd350c6562f2fc93/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3da79a2d3b14de22bd350c6562f2fc93/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:21:5-22:38
-MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:21:5-22:38
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58d5d0e915283586ffc0b7b469de19dd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58d5d0e915283586ffc0b7b469de19dd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5d8b227cb4885bce1754997396011696/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5d8b227cb4885bce1754997396011696/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0173d5c4ad2bd37efd37b46b007629e5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0173d5c4ad2bd37efd37b46b007629e5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/01bdc7d55c31055847cb5bcd9bb9f3a3/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/01bdc7d55c31055847cb5bcd9bb9f3a3/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58b4b92c40b03b9e6afe935f47c834d9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58b4b92c40b03b9e6afe935f47c834d9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fcb096a2b9cfc956781bb07814ef8b29/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fcb096a2b9cfc956781bb07814ef8b29/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b8314179642c954ccb4f81c0f68d1ab4/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b8314179642c954ccb4f81c0f68d1ab4/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b9f8c2f842ae138b449d8b9794025908/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b9f8c2f842ae138b449d8b9794025908/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/342b550abc2773b09938ae8533374f9c/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/342b550abc2773b09938ae8533374f9c/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c6435e0a3a48aaab017b2d783068845b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c6435e0a3a48aaab017b2d783068845b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/09ad796af8b1d5ea696984039afde1e7/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/09ad796af8b1d5ea696984039afde1e7/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/efb241155a1b1100ceff1b8a33cd12c7/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/efb241155a1b1100ceff1b8a33cd12c7/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/65d3e63b8816953ca8afa4e1fd3da16d/transformed/hilt-android-2.45/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/65d3e63b8816953ca8afa4e1fd3da16d/transformed/hilt-android-2.45/AndroidManifest.xml:18:3-42
+MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcdda04f699a693264059de03a0c84d5/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcdda04f699a693264059de03a0c84d5/transformed/camera-video-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/78463642c7430b2138db1e2986116a90/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/78463642c7430b2138db1e2986116a90/transformed/camera-lifecycle-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7f72a72482e3d02c33cba8f15e9efbb6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7f72a72482e3d02c33cba8f15e9efbb6/transformed/camera-view-1.3.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4514cce0f53fd9a8b942919fdd7ff91d/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4514cce0f53fd9a8b942919fdd7ff91d/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25477181ab9568c01ac43b46546ca231/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/25477181ab9568c01ac43b46546ca231/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66bfe1a616e2b6ac4178ccfe38005df2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/66bfe1a616e2b6ac4178ccfe38005df2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d00d98fcbf6cd57b1013563d92b6522f/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d00d98fcbf6cd57b1013563d92b6522f/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b91831b50d3e81023529cb85fec2645/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b91831b50d3e81023529cb85fec2645/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c54197fa38d87ebd225a2fa41dd18a14/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c54197fa38d87ebd225a2fa41dd18a14/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/67f2ce294070d56d53959a8e42cc7c06/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/67f2ce294070d56d53959a8e42cc7c06/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4876d5bb9de3d3798b38e5b80f8a1f87/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4876d5bb9de3d3798b38e5b80f8a1f87/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22cb232655d135e861015823375f9275/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/22cb232655d135e861015823375f9275/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/63ee66a2508c0257306e16025a8adb27/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/63ee66a2508c0257306e16025a8adb27/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/afd692ffdfff577ae5f61c2186fb4ca5/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/afd692ffdfff577ae5f61c2186fb4ca5/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c0d128b7d1177d25fbd40d3877720610/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c0d128b7d1177d25fbd40d3877720610/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a068f85ca028cb7258685f12948f9f93/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/a068f85ca028cb7258685f12948f9f93/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7802b1af9eae5a5c5feac11f0f265cca/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7802b1af9eae5a5c5feac11f0f265cca/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4387e8427697f4ec98eadf00a0814090/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4387e8427697f4ec98eadf00a0814090/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7e770949e1ed082cd37abb7ca5f25db4/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7e770949e1ed082cd37abb7ca5f25db4/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2046314a3fb717842731afd12ca16714/transformed/activity-compose-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2046314a3fb717842731afd12ca16714/transformed/activity-compose-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58bd403d48cdc131a428646206f1589e/transformed/activity-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/58bd403d48cdc131a428646206f1589e/transformed/activity-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9dadf7ceee241d233e963309ce5fd89e/transformed/activity-ktx-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9dadf7ceee241d233e963309ce5fd89e/transformed/activity-ktx-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/915a34b8fd89c8b59f789d4550bcc57b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/915a34b8fd89c8b59f789d4550bcc57b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f5ec83d7cb94f66cbf12fd3cec63dd52/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/f5ec83d7cb94f66cbf12fd3cec63dd52/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10bb0f65fafb0f534080f1c029049530/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/10bb0f65fafb0f534080f1c029049530/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26d6f08e6a032f6e0b8b61ee145869f2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26d6f08e6a032f6e0b8b61ee145869f2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0207b8682949847e6ac3c791b7a6c968/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0207b8682949847e6ac3c791b7a6c968/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/447c135f35c8d9f6600da2856ee83748/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/447c135f35c8d9f6600da2856ee83748/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fb0bda1872f6781505e028784e5ced5e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/fb0bda1872f6781505e028784e5ced5e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/992aa1f54d442ffc466d49104b3cf34a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/992aa1f54d442ffc466d49104b3cf34a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5a00bc5ba44074733f8fa55e7f99d67d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5a00bc5ba44074733f8fa55e7f99d67d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b498d76bdb632f6e3bf92b593646ed72/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b498d76bdb632f6e3bf92b593646ed72/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/354f0a94d1956d1de40288e152e2beb4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/354f0a94d1956d1de40288e152e2beb4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4398ae51ddeb933f93155d4e72d7c172/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/4398ae51ddeb933f93155d4e72d7c172/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9d4522b9353d11bfe8b583a1ce85a81d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9d4522b9353d11bfe8b583a1ce85a81d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/db161bc2e98e37c5a1fd7f8caebb0fe9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/db161bc2e98e37c5a1fd7f8caebb0fe9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b7ed557e48613daee169698adc8b90db/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b7ed557e48613daee169698adc8b90db/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03e44fa0a4bd118419a5ffe7b767df65/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03e44fa0a4bd118419a5ffe7b767df65/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0fdd6342f28da4fef742bcb4ce19e1b5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0fdd6342f28da4fef742bcb4ce19e1b5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8bc935827275613bacd33d5edfc76dec/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8bc935827275613bacd33d5edfc76dec/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/35146ef3c2e8f94dd57d167541f38492/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/35146ef3c2e8f94dd57d167541f38492/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcb33abb701c9e66ce5164f50b096cb2/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/dcb33abb701c9e66ce5164f50b096cb2/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26b05fca8d1f5c40b7dd90fd54765254/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/26b05fca8d1f5c40b7dd90fd54765254/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03bac74428d95352b5451bcf0a57613b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/03bac74428d95352b5451bcf0a57613b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0a84837903800db91ba31f6fbb34bd56/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/0a84837903800db91ba31f6fbb34bd56/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9f2c2741c2098c05c384537adf1a28d0/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9f2c2741c2098c05c384537adf1a28d0/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bfdf4cd4f38030f610d3d3c36918c594/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bfdf4cd4f38030f610d3d3c36918c594/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/de0dec63c796446369cabd149ae3c196/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/de0dec63c796446369cabd149ae3c196/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9aa5b944f9ffcb6fccbfd8b14fbd95a8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9aa5b944f9ffcb6fccbfd8b14fbd95a8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c0cb0728c0fcb067815446b5e732d4a/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c0cb0728c0fcb067815446b5e732d4a/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b58c6918b35dcab10a5b125bdad4ca7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3b58c6918b35dcab10a5b125bdad4ca7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1fb0d5bcb07a8a6ee3dcc1a4ddb42292/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1fb0d5bcb07a8a6ee3dcc1a4ddb42292/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8fb6dc398e01e89b0b68105277316866/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8fb6dc398e01e89b0b68105277316866/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1c734e08b054f20b4e3857e4503829a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/1c734e08b054f20b4e3857e4503829a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70ab8395faef5d1d5012c9f6535ca161/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/70ab8395faef5d1d5012c9f6535ca161/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2d7de80f17bd7cda737aaee89a78f2b/transformed/dagger-lint-aar-2.45/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/b2d7de80f17bd7cda737aaee89a78f2b/transformed/dagger-lint-aar-2.45/AndroidManifest.xml:18:3-42
 	android:targetSdkVersion
 		INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/choimyeong-yoon/snaptime-android/SnapTime/app/src/main/AndroidManifest.xml
-activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/cef566df6990a499472780b559bb5ee1/transformed/ui-tooling-1.3.0/AndroidManifest.xml:24:13-71
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:24:9-33:19
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:29:9-33:78
-MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/2dbdc05bf369e7d57bbcf2932b5a50c7/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:29:9-33:78
+ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9724f5940797b7502a4182faab342344/transformed/camera-core-1.3.0-alpha04/AndroidManifest.xml:29:9-33:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:29:13-31
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:29:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:26:13-36
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:26:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:28:13-75
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:28:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:25:13-75
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:25:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:30:13-32:89
+ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:30:13-32:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:32:17-86
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/7b0098943235b07e172b68970fb8e63c/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:31:17-103
+		ADDED from [androidx.camera:camera-camera2:1.3.0-alpha04] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/beb3e97539d0e0b2b76cbd5a40aa84a8/transformed/camera-camera2-1.3.0-alpha04/AndroidManifest.xml:31:17-103
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/16f108b622da9112f735483039e59b16/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3011973ff64a11bf6d6953b73550d260/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/bd868f38d7ec681768ab7df5f37dedb5/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:24:13-63
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/d0098de2eb2332cbd54a3e277a07473b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/3443afa8ddc90dc11de2a0d1e283de77/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:29:13-31
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:27:13-68
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:28:13-37
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:26:13-67
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/5c5d7e12673c6f4107e9cdb3e10a232e/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#co.kr.snaptime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#co.kr.snaptime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/8606cb73c6e069f72ce3a8d085e677c4/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/c96c14dd88db9daaf6179b99cd258819/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/9fcb7aa2eca6e2bd73164ec5e34db72b/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/choimyeong-yoon/Library/Android/sdk/caches/transforms-3/314b5bb5d0c21f28c56bf6dde32c135e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
