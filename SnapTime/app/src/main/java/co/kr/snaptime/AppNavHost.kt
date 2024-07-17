@@ -11,6 +11,8 @@ import co.kr.snaptime.ui.screen.LogInScreen
 import co.kr.snaptime.ui.screen.ProfileScreen
 import co.kr.snaptime.ui.screen.SettingScreen
 import co.kr.snaptime.ui.screen.SignUpEmailScreen
+import co.kr.snaptime.ui.screen.SignUpIDScreen
+import co.kr.snaptime.ui.screen.SignUpInfoScreen
 import co.kr.snaptime.ui.screen.SignUpPWScreen
 import co.kr.snaptime.ui.viewmodel.LogInViewModel
 
@@ -38,6 +40,18 @@ fun AppNavHost() {
 
         composable(AllScreen.SignUpPWScreen.name) {
             SignUpPWScreen(
+                navController = navController
+            )
+        }
+
+        composable(AllScreen.SignUpInfoScreen.name) {
+            SignUpInfoScreen(
+                navController = navController
+            )
+        }
+
+        composable(AllScreen.SignUpIDScreen.name) {
+            SignUpIDScreen(
                 navController = navController
             )
         }
