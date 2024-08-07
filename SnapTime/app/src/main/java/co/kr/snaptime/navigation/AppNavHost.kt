@@ -6,6 +6,7 @@ import androidx.datastore.dataStore
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import co.kr.snaptime.data.api.UserApiService
 import co.kr.snaptime.data.repository.UserRepository
 import co.kr.snaptime.di.NetworkModule
 import co.kr.snaptime.navigation.AllScreen
@@ -20,7 +21,10 @@ import co.kr.snaptime.ui.viewmodel.UserViewModel
 
 @Composable
 fun AppNavHost() {
-    val userRepo = UserRepository(dataStore = NetworkModule.provideDataStore(LocalContext.current))
+    val userRepo = UserRepository(
+        dataStore = NetworkModule.provideDataStore(LocalContext.current),
+        userApi = UserApiService
+    )
     val navController = rememberNavController()
     val userViewModel = UserViewModel(userRepo)
 
